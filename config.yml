@@ -1,0 +1,11 @@
+elasticsearch.host: "https://localhost:9200"
+elasticsearch.api_key: "RUIzdEpvNEJ5VUs5aFM4N01MNEE6TWU5a29zY2JSUk8tZnlULXdiWkhDQQ=="
+elasticsearch.ca_certs: "/http_ca.crt"
+elasticsearch.ssl: true
+network.host: 0.0.0.0
+
+connectors:
+ -
+    connector_id: "DB3YJo4ByUK9hS87tL6M"
+    service_type: "sharepoint_online" # Example service type
+    api_key: "RUIzdEpvNEJ5VUs5aFM4N01MNEE6TWU5a29zY2JSUk8tZnlULXdiWkhDQQ=="
